@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int dd() {
+int main() {
 
    cout << "начало цикла" << endl;
 

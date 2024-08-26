@@ -5,16 +5,15 @@ using namespace std;
 int main() {
 
    cout << "начало цикла" << endl;
-
-   for (int i = 0; i < 6; i++) 
+   for (int i = 1; i < 5; i++)
    {
-      cout << "переменная i = " << i << endl;
+      cout << "сработал 1 цикл for, операция №" << i << endl;
 
-      if (i == 5) {
-         break;
+      for (int j = 1; j < 5; j++)
+      {
+         cout << "сработал 2 цикл for итерация №" << j << endl;
       }
-      
    }
-
+   
    return 0; 
 }

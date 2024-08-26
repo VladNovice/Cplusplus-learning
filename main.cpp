@@ -3,17 +3,19 @@
 using namespace std;
 
 int main() {
+   int height;
+   int width;
+   cout << "Задайте ширину для фигуры" << endl;
+   cin >> width;
+   cout << "Задайте высоту для фигуры" << endl;
+   cin >> height;
 
-   cout << "начало цикла" << endl;
-   for (int i = 1; i < 5; i++)
-   {
-      cout << "сработал 1 цикл for, операция №" << i << endl;
+   for (int indexheight = 0; indexheight < height; indexheight++) {
+         cout << "\n" << "*";
 
-      for (int j = 1; j < 5; j++)
-      {
-         cout << "сработал 2 цикл for итерация №" << j << endl;
+      for (int indexwidth = 1; indexwidth < width; indexwidth++) {
+      cout << "*";
       }
    }
-   
-   return 0; 
+    cout << endl << endl;
 }

@@ -3,19 +3,10 @@
 using namespace std;
 
 int main() {
-   int height;
-   int width;
-   cout << "Задайте ширину для фигуры" << endl;
-   cin >> width;
-   cout << "Задайте высоту для фигуры" << endl;
-   cin >> height;
+   const int size = 10;
+   int arr[size]{5, 65, 32, 76, 988};
 
-   for (int indexheight = 0; indexheight < height; indexheight++) {
-         cout << "\n" << "*";
-
-      for (int indexwidth = 1; indexwidth < width; indexwidth++) {
-      cout << "*";
-      }
+   for (int i = 0; i < size; i++) {
+      cout << arr[i] << endl; 
    }
-    cout << endl << endl;
 }

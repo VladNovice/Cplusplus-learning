@@ -3,10 +3,10 @@
 using namespace std;
 
 int main() {
-   const int size = 10;
-   int arr[size]{5, 65, 32, 76, 988};
+   const int ROW = 3;
+   const int COL = 4;
 
-   for (int i = 0; i < size; i++) {
-      cout << arr[i] << endl; 
-   }
+   int arr[ROW][COL];
+   
+   arr[1][1] = 55; 
 }

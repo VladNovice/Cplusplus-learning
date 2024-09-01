@@ -6,7 +6,9 @@ int main() {
    const int ROW = 3;
    const int COL = 4;
 
-   int arr[ROW][COL];
-   
-   arr[1][1] = 55; 
+   int arr[ROW][COL]{ 
+      {32,4234,43242,4234},
+      {234234, 432423423, 4234234, 324234} 
+      {32,4234,43242,4234}
+      };
 }

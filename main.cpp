@@ -3,12 +3,26 @@
 using namespace std;
 
 int main() {
-   const int ROW = 3;
-   const int COL = 4;
+   const int ROWs = 3;
+   const int COLs = 4;
 
-   int arr[ROW][COL]{ 
-      {32,4234,43242,4234},
-      {234234, 432423423, 4234234, 324234} 
-      {32,4234,43242,4234}
-      };
+   int arr[ROWs][COLs];
+
+   for (int i = 0; i < ROWs; i++) {
+      for (int j = 0; j < COLs; j++) {
+         arr[i][j] = rand() % 10;
+      }
+   }
+
+
+   for (int i = 0; i < ROWs; i++) 
+   {
+      for (int j = 0; j < COLs; j++)
+   {
+      cout << arr[i][j] << "\t";
+   }
+
+   cout << endl;
+
+   }
 }

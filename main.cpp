@@ -2,27 +2,18 @@
 
 using namespace std;
 
-int main() {
-   const int ROWs = 3;
-   const int COLs = 4;
+void dosd() {
 
-   int arr[ROWs][COLs];
+}
 
-   for (int i = 0; i < ROWs; i++) {
-      for (int j = 0; j < COLs; j++) {
-         arr[i][j] = rand() % 10;
-      }
-   }
+int Sum(int a, int b) {
+   int result = a + b;
+   return result;
+}
 
+int main() {  
+   int q = 11;
+   int w = 12;
+   cout << Sum(q, w) << endl;
 
-   for (int i = 0; i < ROWs; i++) 
-   {
-      for (int j = 0; j < COLs; j++)
-   {
-      cout << arr[i][j] << "\t";
-   }
-
-   cout << endl;
-
-   }
 }
